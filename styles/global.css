@@ -1,0 +1,18 @@
+:root  {
+  --bg-main-blue: #24436F;
+  --bg-sub-blue: #345584;
+  --bg-accent-water: #3081C9;
+  --bg-white: #FFFFFF;
+  --bg-light-gray: #FAFAFA;
+  --bg-gray: #F2F2F2;
+  --text-blue: #294C7A;
+  --text-black: #000000;
+  --text-dark-gray: #3B3B3B;
+  --text-gray: #797979;
+  --text-semi-light-gray: #A2A2A2;
+  --text-light-gray: #BFC9D7;
+  --text-white: #FFFFFF;
+
+  --hiragino: "Hiragino Kaku Gothic ProN";
+  --img-clock: "img/global/clock.png";
+}

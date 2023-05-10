@@ -1,0 +1,12 @@
+.div--maincolor{
+  background-color: var(--bg-main-blue);
+}
+
+.h1 {
+  color: var(--text-white);
+}
+
+.p {
+  color: var(--text-black);
+  font-family: var(--hiragino);
+}
