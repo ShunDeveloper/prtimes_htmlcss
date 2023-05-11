@@ -1,5 +1,5 @@
 .header {
-  padding: 20px 175px;
+  padding: 20px 176px;
   font-family: var(--font-hiragino);
   background-color: var(--bg-main-blue);
 }
@@ -14,7 +14,7 @@
 .header-content__title {
   grid-column: 1 / 6;
   font-size: 12px;
-  line-height: 18px;
+  line-height: 1.5;
   height: 30px;
 }
 
@@ -39,7 +39,7 @@
   background-color: var(--bg-sub-blue);
   width: 85%;
   display: flex;
-  padding: 6px 15px 8px;
+  padding: 6px 16px 8px;
   align-items: center;
   background-color: #345584;
   border-radius: 4px;
@@ -48,7 +48,7 @@
 .menu__item {
   display: inline-block;
   color: var(--text-white);
-  padding-right: 15px;
+  padding-right: 16px;
 }
 
 .header-content__search {
