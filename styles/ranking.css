@@ -6,11 +6,11 @@
   grid-gap: 10px; /* gap BETWEEN grid items */
 }
 
-.item {
+.card {
   padding-bottom: 10px;
 }
 
-.ranking__item {
+.ranking__card {
   color: var(--text-semi-light-gray);
   background-color: var(--bg-white);
   font-size: 12px;
@@ -20,14 +20,14 @@
   position: relative;
 }
 
-.item__title {
+.card__title {
   font-size: 13px;
   color: var(--text-dark-gray);
   margin: 10px 0;
 }
 
 
-.item__image {
+.card__image {
   height: 100px;
   margin: 0 auto;
   object-fit: contain;
@@ -54,7 +54,7 @@
   font-size: 17px;
 }
 
-.item__box > * {
+.card__box > * {
   display: inline;
 }
 
