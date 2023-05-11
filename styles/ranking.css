@@ -1,0 +1,36 @@
+.ranking {
+  padding: 20px 175px;
+  background-color: var(--bg-gray);
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px; /* gap BETWEEN grid items */
+}
+
+.item {
+  padding-bottom: 10px;
+}
+
+.ranking__item {
+  color: var(--text-semi-light-gray);
+  background-color: var(--bg-white);
+  font-size: 12px;
+  line-height: 18px;
+  text-align: left;
+  padding-inline: 10px;
+}
+
+.item__title {
+  font-size: 13px;
+  color: var(--text-dark-gray);
+  margin: 10px 0;
+}
+
+.item__image {
+  height: 100px;
+  margin: 0 auto;
+}
+
+.item__box > * {
+  display: inline;
+}
+
