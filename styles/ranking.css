@@ -17,6 +17,7 @@
   line-height: 18px;
   text-align: left;
   padding-inline: 10px;
+  position: relative;
 }
 
 .item__title {
@@ -25,9 +26,31 @@
   margin: 10px 0;
 }
 
+
 .item__image {
   height: 100px;
   margin: 0 auto;
+}
+
+.overlay {
+  position: absolute;
+  background-color: var(--bg-main-blue);
+  top: 0%;
+  left: 0%;
+  width: 24px;
+  height: 24px;
+  transform: translate(0%, 0%);
+  display: flex;
+  align-items: center;
+  /* Additional styles for the overlay */
+}
+
+.overlay__text {
+  color: var(--text-white);
+  font-family: "Roboto";
+  font-style: italic;
+  margin: 0 auto;
+  font-size: 17px;
 }
 
 .item__box > * {
