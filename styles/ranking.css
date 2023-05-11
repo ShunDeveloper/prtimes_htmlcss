@@ -6,10 +6,6 @@
   grid-gap: 10px; /* gap BETWEEN grid items */
 }
 
-.card {
-  padding-bottom: 10px;
-}
-
 .ranking__card {
   color: var(--text-semi-light-gray);
   background-color: var(--bg-white);
@@ -18,6 +14,7 @@
   text-align: left;
   padding-inline: 10px;
   position: relative;
+  padding-bottom: 10px;
 }
 
 .card__title {
