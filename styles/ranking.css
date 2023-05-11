@@ -9,8 +9,6 @@
 .ranking__card {
   color: var(--text-semi-light-gray);
   background-color: var(--bg-white);
-  font-size: 12px;
-  line-height: 18px;
   text-align: left;
   padding-inline: 10px;
   position: relative;
@@ -25,7 +23,8 @@
 
 
 .card__image {
-  height: 100px;
+  height: auto;
+  width: 180px;
   margin: 0 auto;
   object-fit: contain;
 }
@@ -51,7 +50,7 @@
   font-size: 17px;
 }
 
-.card__time > * {
+.card__time {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -60,3 +59,12 @@
   line-height: 1;
 }
 
+.card__company-name {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.card__view-count {
+  font-size: 12px;
+  line-height: 18px;
+}
