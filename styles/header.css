@@ -18,13 +18,13 @@
   height: 30px;
 }
 
-.title__logo {
+.header-content__title__logo {
   height: 22px;
   display: inline-block;
   vertical-align: middle
 }
 
-.title__text {
+.header-content__title__text {
   display: inline-block;
   color: var(--text-light-gray);
   padding-left: 12px;
