@@ -1,12 +1,8 @@
 .container__header {
   padding: 20px 175px;
   font-family: var(--font-hiragino);
-}
-
-.header {
   background-color: var(--bg-main-blue);
 }
-
 
 .header-content {
   display: grid;
