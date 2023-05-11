@@ -63,11 +63,11 @@
   color: var(--text-black);
 }
 
-.keyword {
+.form {
   display: flex;
 }
 
-.keyword__input {
+.form__input {
   background: #fff;
   height: 30px;
   font-size: 13px;
@@ -76,7 +76,7 @@
   width: 85%;
 }
 
-.keyword__button {
+.form__button {
   background-color: var(--bg-accent-blue);
   background-image: url(../img/header/icon_search.png);
   background-repeat: no-repeat;
