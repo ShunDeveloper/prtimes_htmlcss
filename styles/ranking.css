@@ -51,7 +51,12 @@
   font-size: 17px;
 }
 
-.card__box > * {
-  display: inline;
+.card__time > * {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+  font-size: 12px;
+  line-height: 1;
 }
 
