@@ -10,8 +10,8 @@
   color: var(--text-semi-light-gray);
   background-color: var(--bg-white);
   text-align: left;
-  padding-inline: 10px;
   position: relative;
+  padding-inline: 10px;
   padding-bottom: 10px;
 }
 
@@ -32,8 +32,8 @@
 .overlay {
   position: absolute;
   background-color: var(--bg-main-blue);
-  top: 0%;
-  left: 0%;
+  top: 0;
+  left: 0;
   width: 24px;
   height: 24px;
   transform: translate(0%, 0%);
