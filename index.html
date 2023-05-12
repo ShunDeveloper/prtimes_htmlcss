@@ -13,11 +13,33 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/footer.css">
   </head>
-  <body>
-    <div class="div--maincolor">
-      <h1 class="h1">My First Webpage</h1>
-      <p class="p">Hello World!</p>
-      <img src="img/header/logo_prtimes.svg" alt="PR TIMES"/>
-    </div>
+  <body class="container">
+    <header class="header">
+      <div class="header-content">
+        <div class="header-content__title">
+          <a href="/" title="ホームページに戻る">
+            <img class="header-content__title__logo" src="img/header/logo_prtimes.svg" alt="PR TIMES"/>
+            <h1 class="header-content__title__text">プレスリリース・ニュースリリース配信サービスのPR TIMES</h1>
+          </a>
+        </div>
+        <ul class="header-content__menu menu--bgblue">
+          <li class="menu__item"><a href="#">プレスリリースを受信</a> |</li>
+          <li class="menu__item"><a href="#">企業登録申請</a> |</li>
+          <li class="menu__item"><a href="#">管理画面</a></li>
+        </ul>
+        <form class="form header-content__search">
+          <input class="form__input" type="text" placeholder="キーワードで検索" aria-label="キーワードで検索">
+          <button class="form__button" type="submit"></button>
+        </form>
+      </div>
+      <nav class="navigation-container">
+        <ul class="menu--default">
+          <li class="menu__item"><a href="#">プレスリリース</a></li>
+          <li class="menu__item"><a href="#">ランキング</a></li>
+          <li class="menu__item"><a href="#">TV</a></li>
+          <li class="menu__item"><a href="#">ストーリー</a></li>
+        </ul>
+      </nav>
+    </header>
   </body>
 </html>
