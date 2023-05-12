@@ -62,12 +62,12 @@
 
 .card__company-name {
   font-size: 12px;
-  line-height: 1.5px;
+  line-height: 1.5;
   padding-inline: 10px;
 }
 
 .card__view-count {
   font-size: 12px;
-  line-height: 1.5px;
+  line-height: 1.5;
   padding-inline: 10px;
 }
