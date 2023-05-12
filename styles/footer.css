@@ -1,0 +1,14 @@
+.footer {
+  background-color: var(--bg-light-gray);
+  padding: 20px 176px;
+  color: var(--text-gray);
+}
+
+.footer__menu {
+  border-bottom: 2px solid var(--bg-gray);
+}
+
+.column__title {
+  color: var(--text-black);
+  font-size: 16px;
+}
