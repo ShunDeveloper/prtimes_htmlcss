@@ -1,0 +1,73 @@
+.ranking {
+  padding: 20px 175px;
+  background-color: var(--bg-gray);
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px; /* gap BETWEEN grid items */
+}
+
+.ranking__card {
+  color: var(--text-semi-light-gray);
+  background-color: var(--bg-white);
+  text-align: left;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.card__title {
+  font-size: 13px;
+  color: var(--text-dark-gray);
+  margin: 10px 0;
+  padding-inline: 10px
+}
+
+
+.card__image {
+  height: auto;
+  width: 180px;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.overlay {
+  position: absolute;
+  background-color: var(--bg-main-blue);
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  transform: translate(0, 0);
+  display: flex;
+  align-items: center;
+}
+
+.overlay__text {
+  color: var(--text-white);
+  font-family: "Roboto";
+  font-style: italic;
+  margin: 0 auto;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+.card__time {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+  font-size: 12px;
+  line-height: 1;
+  padding-inline: 10px;
+}
+
+.card__company-name {
+  font-size: 12px;
+  line-height: 1.5;
+  padding-inline: 10px;
+}
+
+.card__view-count {
+  font-size: 12px;
+  line-height: 1.5;
+  padding-inline: 10px;
+}
