@@ -11,7 +11,6 @@
   background-color: var(--bg-white);
   text-align: left;
   position: relative;
-  padding-inline: 10px;
   padding-bottom: 10px;
 }
 
@@ -19,6 +18,7 @@
   font-size: 13px;
   color: var(--text-dark-gray);
   margin: 10px 0;
+  padding-inline: 10px
 }
 
 
@@ -57,14 +57,17 @@
   gap: 5px;
   font-size: 12px;
   line-height: 1;
+  padding-inline: 10px;
 }
 
 .card__company-name {
   font-size: 12px;
   line-height: 18px;
+  padding-inline: 10px;
 }
 
 .card__view-count {
   font-size: 12px;
   line-height: 18px;
+  padding-inline: 10px;
 }
