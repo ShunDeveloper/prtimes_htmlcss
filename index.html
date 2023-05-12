@@ -14,10 +14,100 @@
     <link rel="stylesheet" href="styles/footer.css">
   </head>
   <body>
-    <div class="div--maincolor">
-      <h1 class="h1">My First Webpage</h1>
-      <p class="p">Hello World!</p>
-      <img src="img/header/logo_prtimes.svg" alt="PR TIMES"/>
+    <header class="header">
+      <div class="header-content">
+        <div class="header-content__title">
+          <a href="/" title="ホームページに戻る">
+            <img class="header-content__title__logo" src="img/header/logo_prtimes.svg" alt="PR TIMES"/>
+            <h1 class="header-content__title__text">プレスリリース・ニュースリリース配信サービスのPR TIMES</h1>
+          </a>
+        </div>
+        <ul class="header-content__menu menu--bgblue">
+          <li class="menu__item"><a href="#">プレスリリースを受信</a> |</li>
+          <li class="menu__item"><a href="#">企業登録申請</a> |</li>
+          <li class="menu__item"><a href="#">管理画面</a></li>
+        </ul>
+        <form class="form header-content__search">
+          <input class="form__input" type="text" placeholder="キーワードで検索" aria-label="キーワードで検索">
+          <button class="form__button" type="submit"></button>
+        </form>
+      </div>
+      <nav class="navigation-container">
+        <ul class="menu--default">
+          <li class="menu__item"><a href="#">プレスリリース</a></li>
+          <li class="menu__item"><a href="#">ランキング</a></li>
+          <li class="menu__item"><a href="#">TV</a></li>
+          <li class="menu__item"><a href="#">ストーリー</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="ranking">
+      <div class="ranking__card">
+        <img class="card__image"  src="img/ranking/ranking_img1.png" alt="ランキング1位"/>
+        <div class="overlay"><p class="overlay__text">1</p></div>
+        <h2 class="card__title"> 【新型コロナ感染者数マップ】緊急事態宣言発令状況やを東京都市区町村別... </h2>
+        <div class="card__time">
+          <img class="time__icon" src="img/global/clock.png" alt="time"/>
+          <p class="time__text">2時間前</p>
+        </div>
+        <p class="card__company-name">いちから株式会社</p>
+        <p class="card__view-count">PV 00,000 / UU 00,000</p>
+      </div>
+      <div class="ranking__card">
+        <img class="card__image"  src="img/ranking/ranking_img1.png" alt="ランキング2位"/>
+        <div class="overlay"><p class="overlay__text">2</p></div>
+        <h2 class="card__title"> 【新型コロナ感染者数マップ】緊急事態宣言発令状況やを東京都市区町村別... </h2>
+        <div class="card__time">
+          <img class="time__icon" src="img/global/clock.png" alt="time"/>
+          <p class="time__text">2時間前</p>
+        </div>
+        <p class="card__company-name">いちから株式会社</p>
+        <p class="card__view-count">PV 00,000 / UU 00,000</p>
+      </div>
+      <div class="ranking__card">
+        <img class="card__image"  src="img/ranking/ranking_img1.png" alt="ランキング3位"/>
+        <div class="overlay"><p class="overlay__text">3</p></div>
+        <h2 class="card__title"> 【新型コロナ感染者数マップ】緊急事態宣言発令状況やを東京都市区町村別... </h2>
+        <div class="card__time">
+          <img class="time__icon" src="img/global/clock.png" alt="time"/>
+          <p class="time__text">2時間前</p>
+        </div>
+        <p class="card__company-name">いちから株式会社</p>
+        <p class="card__view-count">PV 00,000 / UU 00,000</p>
+      </div>
+      <div class="ranking__card">
+        <img class="card__image"  src="img/ranking/ranking_img1.png" alt="ランキング4位"/>
+        <div class="overlay"><p class="overlay__text">4</p></div>
+        <h2 class="card__title"> 【新型コロナ感染者数マップ】緊急事態宣言発令状況やを東京都市区町村別... </h2>
+        <div class="card__time">
+          <img class="time__icon" src="img/global/clock.png" alt="time"/>
+          <p class="time__text">2時間前</p>
+        </div>
+        <p class="card__company-name">いちから株式会社</p>
+        <p class="card__view-count">PV 00,000 / UU 00,000</p>
+      </div>
+      <div class="ranking__card">
+        <img class="card__image"  src="img/ranking/ranking_img1.png" alt="ランキング5位"/>
+        <div class="overlay"><p class="overlay__text">5</p></div>
+        <h2 class="card__title"> 【新型コロナ感染者数マップ】緊急事態宣言発令状況やを東京都市区町村別... </h2>
+        <div class="card__time">
+          <img class="time__icon" src="img/global/clock.png" alt="time"/>
+          <p class="time__text">2時間前</p>
+        </div>
+        <p class="card__company-name">いちから株式会社</p>
+        <p class="card__view-count">PV 00,000 / UU 00,000</p>
+      </div>
+      <div class="ranking__card">
+        <img class="card__image"  src="img/ranking/ranking_img1.png" alt="ランキング6位"/>
+        <div class="overlay"><p class="overlay__text">6</p></div>
+        <h2 class="card__title"> 【新型コロナ感染者数マップ】緊急事態宣言発令状況やを東京都市区町村別... </h2>
+        <div class="card__time">
+          <img class="time__icon" src="img/global/clock.png" alt="time"/>
+          <p class="time__text">2時間前</p>
+        </div>
+        <p class="card__company-name">いちから株式会社</p>
+        <p class="card__view-count">PV 00,000 / UU 00,000</p>
+      </div>
     </div>
     <main class="main__container">
       <div class="main__content">
