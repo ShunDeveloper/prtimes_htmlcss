@@ -1,6 +1,6 @@
 .footer {
   background-color: var(--bg-light-gray);
-  padding: 20px 176px;
+  padding: 100px 176px 30px 176px;
 }
 
 .footer__menu {
