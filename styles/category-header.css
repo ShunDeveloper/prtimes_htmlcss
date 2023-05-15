@@ -7,12 +7,12 @@
   padding: 16px 300px;
 }
 
-.category {
+.category__item {
   color: var(--text-blue);
   font-size: 12px;
   font-weight: 400;
 }
 
-.focused {
+.category__item--focused {
   font-weight: bold;
 }
