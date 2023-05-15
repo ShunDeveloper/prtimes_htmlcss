@@ -1,0 +1,18 @@
+.category-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  list-style: none;
+  padding: 16px 300px;
+}
+
+.category {
+  color: var(--text-blue);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.focused {
+  font-weight: bold;
+}
